@@ -1,14 +1,5 @@
-<form>
-    <label for="username">Username</label>
-    <input type="text" id="username" name="user_name" />
-
-    <label for="password">Password</label>
-    <input type="password" id="password" name="password" />
-
-    <input type="submit" />
-</form>
 <?php
-require_once 'src/Models/UserLoginModel.php';
+require_once 'src/Models/UserModel.php';
 readonly class UserLogin {
     public string $name;
     protected string $password;
